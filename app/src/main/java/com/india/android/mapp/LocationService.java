@@ -157,7 +157,7 @@ public class LocationService extends Service implements LocationListener {
         locList.add(0,locData);
         Hawk.put(Constants.LOCATION_LIST,locList);
         isSessionLive=false;
-            Toast.makeText(getApplicationContext(), "Session Saved", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Click on Refresh button to see the latest Session", Toast.LENGTH_SHORT).show();
         }
     }
 

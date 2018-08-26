@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
+import android.os.Bundle;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -15,7 +16,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity implements LocationClick {
         stopService(service);
     }
 
-
     @Override
     public void onRequestPermissionsResult(int requestCode,
                                            @NonNull String permissions[],@NonNull int[] grantResults) {
@@ -116,7 +115,6 @@ public class MainActivity extends AppCompatActivity implements LocationClick {
             dialog.show();
         }
     }
-
 
     private void setupAdapter(){
         if (!Hawk.contains(Constants.LOCATION_LIST)){
