@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MAPP</string>
+    <string name="cancel">Cancel</string>
+    <string name="open_location_settings">Settings</string>
+    <string name="gps_network_not_enabled">Location services unavailable</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
